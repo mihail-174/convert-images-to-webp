@@ -1,0 +1,37 @@
+{
+    "name": "convert-images-to-webp",
+    "description": "",
+    "author": "",
+    "repository": {
+        "type": "git",
+        "name": "mihail-174",
+        "url": "https://github.com/mihail-174"
+    },
+    "license": "MIT",
+    "scripts": {
+        "webp": "gulp webp"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.4.3",
+        "@babel/preset-env": "^7.4.3",
+        "@babel/register": "^7.4.0",
+        "babel-eslint": "^10.0.1",
+        "babel-loader": "^8.0.5",
+        "bem-tools-core": "bem-tools/bem-tools-core",
+        "bem-tools-create": "bem-tools/bem-tools-create",
+        "browser-sync": "^2.23.6",
+        "gulp": "^4.0.0",
+        "gulp-debug": "^4.0.0",
+        "gulp-file-include": "^2.0.1",
+        "gulp-webp": "^4.0.1",
+        "imagemin-giflossy": "^5.1.10",
+        "imagemin-jpeg-recompress": "^6.0.0",
+        "imagemin-mozjpeg": "^8.0.0",
+        "imagemin-pngquant": "^8.0.0",
+        "imagemin-webp": "^5.0.0",
+        "imagemin-zopfli": "^6.0.0",
+        "require-dir": "^1.2.0",
+        "webpack": "^4.30.0",
+        "webpack-stream": "^5.2.1",
+    }
+}
