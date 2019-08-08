@@ -9,7 +9,7 @@
     },
     "license": "MIT",
     "scripts": {
-        "webp": "gulp webp"
+        "start": "gulp webp"
     },
     "devDependencies": {
         "@babel/core": "^7.4.3",
@@ -32,6 +32,6 @@
         "imagemin-zopfli": "^6.0.0",
         "require-dir": "^1.2.0",
         "webpack": "^4.30.0",
-        "webpack-stream": "^5.2.1",
+        "webpack-stream": "^5.2.1"
     }
 }
